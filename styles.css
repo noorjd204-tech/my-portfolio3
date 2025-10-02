@@ -1,3 +1,7 @@
+
+[lang="zgh"] {
+    font-family: 'Noto Sans Tifinagh', sans-serif;
+}
 * {
             margin: 0;
             padding: 0;
@@ -216,4 +220,5 @@ video {
                 grid-template-columns: 1fr;
             }
         }
+
      
