@@ -1,0 +1,219 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+       
+        
+        html,body {
+            height:  100%; 
+        } 
+        body {
+          
+            padding :2rem;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            text-transform: capitalize;
+
+        }
+
+         button {
+        all : unset;
+        text-decoration: none !important;
+        color: #333 !important;
+        background: #e0e0e0;
+        padding: 6px 12px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+    }
+
+    button:hover {
+        background: #d4d4d4;
+        cursor: pointer;
+
+
+    }
+    
+       
+       #header1 {
+    background:linear-gradient(to right, #7f669b 0%, #7f669b 50%, transparent 70%, transparent 100%),
+        url('purple.jpg') right/cover;
+    
+    color: white;
+    padding: 200px 0;
+    min-height: 400px;
+
+}
+     
+#header2 {
+color: rgb(255, 255, 255);
+background: #7f669b;
+padding: 20px 0;
+text-align: center;
+margin-bottom : 20px;
+
+}
+
+nav {
+    background-color:none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+
+}
+
+video {
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 2px solid #7f669b;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+
+
+        nav a {
+            
+            color: white !important;
+            text-decoration: none;
+            margin: 0 15px; 
+            margin-top: -150px; 
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+            #header2 nav a {
+          color: white !important;
+          margin-top: 0px; 
+          transition: color 0.3s;       
+            }
+        
+        h1 {
+            color: #e6ddd6;
+            font-size: 3em;
+            margin-bottom: 10px;
+            margin-left: 50px;
+        }
+
+        p{
+            margin-left: 50px;
+            font-size: 1.2em;
+            color: #000000;
+        }
+
+        #p1 {
+            
+            margin-left: 50px;
+            font-size: 1.2em;
+            color: #31295a;
+        }
+
+
+        #p2 {
+            margin-left: 50px;
+            font-size: 1em;
+            margin-top: 10px;
+            color: #ddd;
+
+
+        }
+
+        #hh{
+            color: #54355a;
+            font-size: 2.0em;
+            margin-bottom: 10px;
+            margin-left: 50px;
+        }
+        
+
+        table, th, td {
+            margin-top: 100px;
+           margin-left: 250px;
+            border-collapse: collapse; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border: 1px solid #ddd; 
+            padding: 10px;
+        }
+
+         .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            size: 300px;
+            margin-left: 50px;
+            margin-top: 20px;
+
+        }
+
+        #footer-text {
+            background-color: #7f669b;
+            color: white ;
+            text-align: center;
+            padding: 10px 0;
+            margin-left: 0px;
+            position: relative;
+            bottom: 0;
+            
+            width: 100%;
+            margin-top: 50px;
+
+        }  
+         footer{
+
+            margin-top: 50px;
+            position: relative;
+            margin-bottom: 0% ;
+
+
+         }
+
+         .cards-container {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            background: #ddd ;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            min-height: 200px;
+            word-wrap: break-word; 
+            overflow-wrap: break-word; 
+        }
+        
+        .card h3 {
+            margin-bottom: 1rem;
+            color: #2c3e50;
+            font-size: 1.5rem;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .card p {
+            color: #555;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .cards-container {
+                grid-template-columns: 1fr;
+            }
+        }
+     
